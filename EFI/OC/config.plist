@@ -1301,9 +1301,9 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Acidanthera\GoldenGate</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1500,10 +1500,246 @@
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
+		<key>Memory</key>
+		<dict>
+			<key>DataWidth</key>
+			<integer>64</integer>
+			<key>ErrorCorrection</key>
+			<integer>3</integer>
+			<key>FormFactor</key>
+			<integer>9</integer>
+			<key>MaxCapacity</key>
+			<integer>34359738368</integer>
+			<key>TotalWidth</key>
+			<integer>64</integer>
+			<key>Type</key>
+			<integer>26</integer>
+			<key>TypeDetail</key>
+			<integer>21</integer>
+			<key>Devices</key>
+			<array>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL A</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 0</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL A</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 1</string>
+					<key>Manufacturer</key>
+					<string>Kingston</string>
+					<key>PartNumber</key>
+					<string>KF3600C18D4/16GX</string>
+					<key>SerialNumber</key>
+					<string>5F924E12</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Speed</key>
+					<integer>2400</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL B</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 0</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL B</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 1</string>
+					<key>Manufacturer</key>
+					<string>Kingston</string>
+					<key>PartNumber</key>
+					<string>KF3600C18D4/16GX</string>
+					<key>SerialNumber</key>
+					<string>E9524E91</string>
+					<key>Size</key>
+					<integer>16384</integer>
+					<key>Speed</key>
+					<integer>2400</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL C</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 0</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL C</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 1</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL D</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 0</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL D</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 1</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL E</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 0</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL E</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 1</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL F</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 0</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>P0 CHANNEL F</string>
+					<key>DeviceLocator</key>
+					<string>DIMM 1</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
 		<key>Automatic</key>
 		<true/>
 		<key>CustomMemory</key>
-		<false/>
+		<true/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
@@ -1636,6 +1872,18 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>OpenCanopy.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
